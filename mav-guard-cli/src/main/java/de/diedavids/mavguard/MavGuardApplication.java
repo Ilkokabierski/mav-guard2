@@ -15,7 +15,7 @@ import picocli.CommandLine.IFactory;
     subcommands = {AnalyzeCommand.class, CheckUpdatesCommand.class},
     mixinStandardHelpOptions = true,
     version = "1.0",
-    description = "Maven Guard CLI tool"
+    description = "MavGuard2 - Continuous monitoring and updating tool for Maven dependencies"
 )
 public class MavGuardApplication implements Runnable {
 
